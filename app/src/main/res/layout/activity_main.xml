@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center"
+    android:background="#FFFFFF">
+
+    <TextView
+        android:id="@+id/myTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#DDDDDD"
+        android:gravity="center"
+        android:padding="8dp"
+        android:fontFamily="@font/lato"
+        android:text="WELCOME"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#03A9F4"
+        android:fontFamily="@font/lato"
+        android:text="Change Text"
+        android:textColor="#FFFFFF" />
+
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#03A9F4"
+        android:fontFamily="@font/lato"
+        android:text="Change Height"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#03A9F4"
+        android:fontFamily="@font/lato"
+        android:text="Center Text"
+        android:textColor="#FFFFFF" />
+
+</LinearLayout>
